@@ -1141,15 +1141,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media only screen and (max-width: 425px) {
-  .owl-carousel img {
+  .owl-carousel .owl-item img {
     display: flex;
     justify-content: center;
     align-items: center;
 
     overflow: hidden;
     background: rgba(255, 255, 255, 0.5);
-    height: auto;
-    width: auto;
+    height: 200px;
+    /* width: 200px; */
   }
 }
 #supporters .supporter-logo:hover img {
